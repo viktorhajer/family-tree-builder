@@ -1,0 +1,16 @@
+#visual-pipe-container {
+  border: 1px solid #999999;
+  width: calc(100vw - 100px);
+  height: calc(100vh - 100px);
+
+  .buttonGroup {
+    position: absolute;
+    background: rgba(var(--color-base1000), 1);
+
+    button {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
+}
+

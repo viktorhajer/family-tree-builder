@@ -1,0 +1,11 @@
+<div id="visual-pipe-container">
+
+  <div class="buttonGroup">
+    <button class="button--secondary" (click)="visualPipe.zoom(0)">Fit</button>
+    <button class="button--secondary" (click)="visualPipe.zoom(0.5)"> 50%</button>
+    <button class="button--secondary" (click)="visualPipe.zoom()"> 100%</button>
+    <button class="button--secondary" (click)="visualPipe.zoom(2)"> 200%</button>
+  </div>
+
+  <app-visual-pipe #visualPipe [nodes]="nodes" [edges]="edges"></app-visual-pipe>
+</div>
