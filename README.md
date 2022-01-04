@@ -1,2 +1,3 @@
-# githubReg1
-family-tree-builder
+# Family Tree Builder
+
+[Demo](https://viktorhajer.github.io/family-tree-builder/)
