@@ -1,11 +1,12 @@
-<div id="visual-pipe-container">
+<!--<div id="visual-pipe-container">-->
 
-  <div class="buttonGroup">
-    <button class="button--secondary" (click)="visualPipe.zoom(0)">Fit</button>
-    <button class="button--secondary" (click)="visualPipe.zoom(0.5)"> 50%</button>
-    <button class="button--secondary" (click)="visualPipe.zoom()"> 100%</button>
-    <button class="button--secondary" (click)="visualPipe.zoom(2)"> 200%</button>
-  </div>
+<!--&lt;!&ndash;  <div class="buttonGroup">&ndash;&gt;-->
+<!--&lt;!&ndash;    <button class="button&#45;&#45;secondary" (click)="visualPipe.zoom(0)">Fit</button>&ndash;&gt;-->
+<!--&lt;!&ndash;    <button class="button&#45;&#45;secondary" (click)="visualPipe.zoom(0.5)"> 50%</button>&ndash;&gt;-->
+<!--&lt;!&ndash;    <button class="button&#45;&#45;secondary" (click)="visualPipe.zoom()"> 100%</button>&ndash;&gt;-->
+<!--&lt;!&ndash;    <button class="button&#45;&#45;secondary" (click)="visualPipe.zoom(2)"> 200%</button>&ndash;&gt;-->
+<!--&lt;!&ndash;  </div>&ndash;&gt;-->
 
-  <app-visual-pipe #visualPipe [nodes]="nodes" [edges]="edges"></app-visual-pipe>
-</div>
+<!--&lt;!&ndash;  <app-visual-pipe #visualPipe [nodes]="nodes" [edges]="edges"></app-visual-pipe>&ndash;&gt;-->
+  <app-visual-tree #visualPipe [nodes]="nodes" [edges]="edges"></app-visual-tree>
+<!--</div>-->

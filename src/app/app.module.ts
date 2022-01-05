@@ -5,11 +5,13 @@ import {CommonModule} from '@angular/common';
 import {FormsModule} from '@angular/forms';
 import {AppComponent} from './app.component';
 import {VisualPipeComponent} from './components/visual-pipe/visual-pipe.component';
+import {VisualTreeComponent} from './components/visual-tree/visual-tree.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    VisualPipeComponent
+    VisualPipeComponent,
+    VisualTreeComponent
   ],
   imports: [
     CommonModule,
